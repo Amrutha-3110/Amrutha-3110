@@ -1,16 +1,13 @@
-
-
-<!--
-**Amrutha-3110/Amrutha-3110** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+#include<stdio.h>
+int main()
+{
+    int n,i,sum=0;
+    printf("enter a number");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        sum=sum+i;
+    }
+       printf("sum of %d is %d",n,sum);
+    return 0;
+}
