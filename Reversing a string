@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<string.h>
+char  i ,j,temp,str1[6]="ammu";
+int main()
+{
+    for(i=0,j=5;i<=2,j>2;i++,j--)
+    {
+        temp=str1[i];
+        str1[i]=str1[j];
+        str1[j]=temp;
+    }
+  for(i=0;i<6;i++)
+   {
+  printf("%c",str1[i]);
+   }
+}
