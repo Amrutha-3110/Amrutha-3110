@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<string.h>
+char string1[20]; char a,i;
+int main()
+{
+    printf("enter your string");
+    fgets(string1,sizeof(string1),stdin);
+    printf("which character need to search ");
+    scanf("%s",&a);
+     if( strchr(string1,a)!=NULL)
+         {
+           printf("it is found");
+         }
+    else
+    {
+        printf("it is not found");
+    }
+   }      
