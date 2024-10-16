@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+   { 
+int array1[1][1]={3},array2[1][1]={2};
+int col,row,sum[2][2];
+    for(row=0;row<1;row++)
+      { 
+      for(col=0;col<1;col++)
+         {sum[2][2]=array1[row][col]+array2[row][col];
+   printf("%d",sum[2][2]);
+          }
+          printf("\n");
+      }  
+   }    
